@@ -10,10 +10,13 @@ body {
     height: 40px;
 }
 
-.header ul {
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.header ul {
     display: flex;
     background-color: blueviolet;
     gap: 20px;
@@ -26,10 +29,23 @@ body {
     align-items: center;
 }
 
+.one {
+    display: flex;
+    background-color: brown;
+    align-items: center;
+}
 
+.two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkmagenta;
+}
 
-
-
+.two ul {
+    background-color: azure;
+    display: flex;
+}
 
 
 
