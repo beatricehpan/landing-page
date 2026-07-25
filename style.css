@@ -47,9 +47,22 @@ ul {
     display: flex;
 }
 
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;
+}
 
+.four {
+    display: flex;
+    background-color: coral;
+}
 
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .one, .two, .three, .four {
     flex: 1;
