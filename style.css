@@ -70,7 +70,16 @@ ul {
 .two ul {
     background-color: azure;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 30px
+}
+
+.two li {
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    align-items: center;
+    width: 100px;
 }
 
 img {
@@ -83,11 +92,20 @@ img {
 }
 
 
-
 .three {
     display: flex;
     flex-direction: column;
     background-color: darkgrey;
+}
+
+.three .quote {
+    background-color: beige;
+}
+
+.three .author {
+    background-color: rgb(51, 164, 164);
+    display: flex;
+    justify-content: flex-end;
 }
 
 .four {
@@ -103,5 +121,9 @@ img {
 
 .one, .two, .three, .four {
     flex: 1;
-    padding: 40px;
+    padding: 40px 40px;
+}
+
+.two, .three {
+    padding: 40px 100px;
 }
