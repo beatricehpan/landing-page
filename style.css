@@ -109,9 +109,17 @@ img {
 }
 
 .four {
-    display: flex;
     background-color: coral;
 }
+
+.blue-box {
+    background-color: aqua;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
 
 .footer {
     display: flex;
