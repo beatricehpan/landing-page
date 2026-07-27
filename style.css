@@ -3,8 +3,8 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    background-color: burlywood;
     box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header, .footer {
@@ -20,20 +20,22 @@ ul {
 
 .header ul {
     display: flex;
-    background-color: blueviolet;
     gap: 20px;
 }
 
 .header {
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 .one {
     display: flex;
-    background-color: brown;
     gap: 20px;
 }
 
@@ -42,10 +44,20 @@ ul {
 }
 
 .one-text {
-    background-color: chartreuse;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.hook {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.subtext, .header li, .one-img {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .first-button {
@@ -53,7 +65,7 @@ ul {
 }
 
 .one-img {
-    background-color: aquamarine;
+    background-color: rgb(145, 153, 151);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,12 +75,16 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: darkmagenta;
     gap: 20px;
 }
 
+.two-heading {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .two ul {
-    background-color: azure;
     display: flex;
     justify-content: space-between;
     gap: 30px
@@ -77,7 +93,6 @@ ul {
 .two li {
     display: flex;
     flex-direction: column;
-    background-color: bisque;
     align-items: center;
     width: 100px;
 }
@@ -95,21 +110,19 @@ img {
 .three {
     display: flex;
     flex-direction: column;
-    background-color: darkgrey;
+    background-color: #E5E7EB;
 }
 
 .three .quote {
-    background-color: beige;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .three .author {
-    background-color: rgb(51, 164, 164);
     display: flex;
     justify-content: flex-end;
-}
-
-.four {
-    background-color: coral;
 }
 
 .blue-box {
@@ -120,6 +133,17 @@ img {
     gap: 50px;
 }
 
+button, .blue-box {
+    background-color: #3882F6;
+}
+
+.four, .footer {
+    color: white;
+}
+
+button {
+    color: white;
+}
 
 .footer {
     display: flex;
@@ -134,4 +158,8 @@ img {
 
 .two, .three {
     padding: 40px 100px;
+}
+
+.header, .one, .footer {
+    background-color: #1F2937;
 }
